@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Set up your credentials (replace with your actual bearer token)
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAKum0gEAAAAACAr8T9GlMZ6WlN1Blk1vSCizP4Q%3DHxxdBxCZqIaAKmW4fUpjycnF3BcFS8oWFNIjNgYWBe2YLYdw0c"
+bearer_token = ""
 
 # Initialize Tweepy client
 client = tweepy.Client(bearer_token=bearer_token, wait_on_rate_limit=True)
